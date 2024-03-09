@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* border: 2px solid blue; */
+    box-sizing: border-box;
+}
+
+body{
+    /* border: 2px solid black; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, black,rgba(49, 51, 49, 0.96));
+}
+
+.calculator{
+    border: 1px solid wheat;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 2px 5px 20px rgba(111, 112, 114, 0.5);
+}
+
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+input::placeholder{
+    color: aliceblue;
+}
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 47%;
+    background: transparent;
+    color: aliceblue;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(69, 70, 72, 0.27);
+    cursor: pointer;
+}
+
+.equalbtn{
+    background-color: rgb(194, 99, 36);
+    
+}
+
+.add,.minus,.mul,.slash{
+    background-color: rgb(194, 99, 36);
+}
+
+.ac,.del,.per{
+    color: black;
+    background-color:rgba(245, 245, 245, 0.766) ;
+}
+
